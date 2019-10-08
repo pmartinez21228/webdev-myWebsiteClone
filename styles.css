@@ -38,7 +38,7 @@ body{
 }
 #shoppingcart{
     width: 26px;
-    padding-top: 21px;
+    padding-top: 22px;
 }
 #herosection{
     width: 100%;
@@ -53,4 +53,39 @@ body{
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+#searchicon{
+    padding-top: 22px;
+    padding-right: 9px;
+}
+#vivecosmos{
+    background-position: center center;
+    background-image: url(https://www.vive.com/media/filer_public/vive/homepage-v4/top_banner/cosmos/logo-en-resize.png);
+    width: 100%;
+    height: 10vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 15px;
+}
+#herobox{
+    padding-top: 530px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .0625rem;
+    font-size: 1.25rem;
+}
+#buttons{
+    margin-left: 42%;
+    padding-top: 30px;
+}
+#leftarrow{
+
+}
+
+#rightarrow{
+    float: right;
+    padding-right: 20px;
+    padding-top: 300px;;
 }
