@@ -131,9 +131,103 @@ body{
     width: 100%;
 }
 #signup{
-    height: 361px;
+    height: 413px;
     width: 100%;
-    background-color: #3EB6E4;
+    background-color: #00b5e2;
+}
+#signupcontent{
+    width: 1140px;
+    margin-left: 390px;
+    height: 277px;
+    margin-top: 68px;
+}
+#signuptext{
+    font-family: 'Oscine-Regular',SF Pro Text,SF Pro Icons,Helvetica,Arial;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: -2px;
+    color: white;
+    width: 100%;
+}
+#email{
+    border: none;
+    background-color: transparent;
+    border-bottom: white 1px solid;
+    font-family: 'Oscine-Regular',SF Pro Text,SF Pro Icons,Helvetica,Arial;
+    color: #FFFFFF !important;
+    margin-left: 48px;
+    width: 460px;
+    margin-top: 40px;
+    float: left;
+}
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: white; 
+    font-size: 1rem;
+    font-weight: bold;
+} 
+#country{
+    width: 460px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 1px white;
+    float: left;
+    margin-top: 40px;
+    padding-bottom: 9px;
+    margin-left: 100px;
+}
+form{
+    width: 100%;
+}
+#checkbox{
+    margin-top: 35px;
+    margin-left: 100px;
+}
+#checkboxtext{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+select{
+    color: white; 
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: transparent;
+}
+option{
+    color: white; 
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+input{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.33px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+}
+#ptos{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+#privacy{
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-left: 420px;
+}
+#tos{
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: normal;
+    text-decoration: underline;
+    margin-left: 70px;
 }
 #socialmedia{
     height: 68px;
@@ -145,11 +239,41 @@ body{
     width: 100%;
     background-color: #111820;
 }
+button{
+    color: #00b5e2;
+    border: 2px solid;
+    padding: 0.5rem 1.5rem;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    background: none;
+    background-color: #a5e5f5;
+    border-radius: 1.25rem !important;
+    margin-left: 514px;
+    margin-top: 30px;
+}
 #ad{
     width: 1140px;
     height: 570px;
     margin-left: 390px;
     margin-top: 54px;
+}
+#ad1{
+    height: 570px;
+    width: 570px;
+    background-image: url(https://www.vive.com/media/filer_public/vive/homepage-v4/product_promotion/vive_pro-min.jpg);
+    background-size: cover;
+    display: inline-block;
+    float: left;
+}
+#ad2{
+    height: 570px;
+    width: 570px;
+    background-image: url(https://www.vive.com/media/filer_public/vive/homepage-v4/product_promotion/7miracles.jpg);
+    background-size: cover;
+    display: inline-block;
+    float: left;
 }
 #newreleasecontent{
     width: 1140px;
@@ -200,4 +324,158 @@ div.newreleasesections h6{
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
+}
+#smtext{
+    margin-left: 380px;
+    margin-top: 20px;
+    float: left;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    letter-spacing: normal;
+}
+div#socialmedia img{
+    margin-left: 20px;
+    margin-top: 18px;
+}
+#footercontent{
+    margin-left: 390px;
+    width: 848px;
+    height: 321px;
+    margin-top: 16px;
+    display: inline-block;
+    float: left;
+}
+#flists{
+    display: inline-block;
+    width: 158px;
+    height: 100%;
+    float: left;
+    margin-left: 0px;
+}
+.flists{
+    display: inline-block;
+    width: 158px;
+    margin-left: 14.5px;
+    height: 100%;
+    float: left;
+}
+.ftitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 16px 0px 8px 0px;
+    float: left;
+}
+ul.left li{
+    list-style-type: none;
+    margin-left: -40px;
+}
+.ftext{
+    color: white;
+    padding: 8px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+#usa{
+    height: 321px;
+    width: 292px;
+    display: inline-block;
+}
+div#usa h1{
+    font-family: 'Oscine-Regular',SF Pro Text,SF Pro Icons,Helvetica,Arial;
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 20px;
+    float: left;
+}
+div#usa img{
+    display: inline-block;
+    padding-top: 30px;
+    float: left;
+}
+#logos{
+    height: 64px;
+    width: 1140px;
+    padding: 16px 0px;
+    margin-left: 375px;
+}
+#steamvr{
+    border-left: white 1px solid;
+    padding-left: 20px;
+    margin-top: 10px;
+}#viveport{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+div#ad1 h3{
+    color: white;
+    font-family: 'Oscine-Regular',SF Pro Text,SF Pro Icons,Helvetica,Arial;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 250px;
+    letter-spacing: normal;
+}
+div#ad1 p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+}
+#getdetails{
+    margin-left: 216px;
+    border: 2px solid;
+    border-radius: 1.25rem;
+    padding: .25rem 1.5rem;
+    color: #fff;
+    background-color: #00b5e2;
+    border-color: #00b5e2;
+    margin-top: 50px;
+}
+div#ad2 h3{
+    color: white;
+    font-family: 'Oscine-Regular',SF Pro Text,SF Pro Icons,Helvetica,Arial;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: normal;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: -2px;
+}
+div#ad2 p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+}
+div#ad2 img{
+    margin-top: 270px;
+    margin-left: 199.5px;
+}
+#getdetails2{
+    margin-left: 216px;
+    border: 2px solid;
+    border-radius: 1.25rem;
+    padding: .25rem 1.5rem;
+    color: #fff;
+    background-color: #00b5e2;
+    border-color: #00b5e2;
+    margin-top: 13px;
+}
+#smalltext{
+    font-size: 1rem;
+    font-family: 'Oscine-Regular',SF Pro Text,SF Pro Icons,Helvetica,Arial;
+    font-weight: normal;
+    margin-top: 0px;
 }
